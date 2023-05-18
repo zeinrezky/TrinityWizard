@@ -21,7 +21,6 @@ class ContactDetailViewController: UIViewController {
 
         setupView()
         
-
         // Add a right bar button item
         let saveButton = UIBarButtonItem(title: "Save", style: .done, target: self, action: #selector(saveButtonTapped))
         navigationItem.rightBarButtonItem = saveButton
